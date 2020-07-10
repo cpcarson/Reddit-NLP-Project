@@ -20,6 +20,10 @@ project_3
 |  |__df_con.csv
 |  |__df_export.csv
 |  |__df_lib.csv
+|__results
+|  |__scores_dataframe.csv
+|  |__word_coefs.csv
+
 ```
 # Data Dictionary
 ________________________
@@ -56,8 +60,3 @@ The Random Forest Classifier, while yielding the best test results with 82.3% ac
 For the resulting analysis, I moved the model from the EC2 cloud back to my local machine. I was then able to analyze the most important features from the Random Forest Classifier in order to get an idea as to which particular language was the most distinct in predicting a comment's appropriate subreddit. The word with the highest coefficient was, not surprisingly, "Trump". A few of the more distinct words with high importance were "capitalism", "nazi", "revolution", "worker", "class", and "rich".  
 
 Had I more time, I would have liked to continue tuning the hyperparameters of the model to attempt to combat its overfitting characteristic while also potentially rendering a better classifying test score, even though it was successful in classifying subreddit comments. Additionally, I would have better curated the dictionary of words used in sentiment comparison for a more robust analysis.
-
-
-```python
-
-```
