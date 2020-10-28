@@ -22,7 +22,6 @@ project_3
 |  |__df_lib.csv
 |__results
 |  |__scores_dataframe.csv
-|  |__word_coefs.csv
 
 ```
 # Data Dictionary
